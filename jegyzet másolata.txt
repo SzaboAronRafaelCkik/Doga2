@@ -1,0 +1,58 @@
+A: git init
+B: git init
+A: git remote add origin https://github.com/SzaboAronRafaelCkik/Doga2.git
+B: git remote add origin https://github.com/SzaboAronRafaelCkik/Doga2.git
+A: git add .
+A: git commit -m "1."
+A: git push origin master
+B: git fetch
+B: git pull origin master
+B: git branch f
+B: git add .
+B: git commit -m "2."
+B: git push origin master
+B: git checkout f
+B: git fetch
+B: git pull origin master
+B: git add .
+B: git commit -m "3."
+B: git push origin f
+A: git fetch
+A: git checkout f
+A: git fetch
+A: git pull origin f
+A: git checkout master
+A: git add .
+A: git commit -m "4."
+A: git push origin master
+B: git checkout master
+B: git fetch
+B: git pull origin master
+B: git add .
+B: git commit -m "5."
+B: git push origin master
+A: git fetch
+A: git pull origin master
+A: git checkout f
+A: git add .
+A: git commit -m "6."
+A: git push origin f
+B: git checkout f
+B: git fetch
+B: git pull origin f
+B: git checkout master
+B: git merge f
+B: git add .
+B: git commit -m "merge"
+B: git push origin master
+B: git fetch
+B: git pull origin master
+B: git add .
+B: git commit -m "7."
+B: git push origin master
+A: git fetch
+A: git pull origin master
+A: git add .
+A: git commit -m "8."
+A: git push origin master
+
